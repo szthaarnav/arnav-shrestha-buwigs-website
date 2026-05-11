@@ -66,15 +66,6 @@ const ProductCard = ({ product }) => {
         style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
       />
 
-      <span style={{
-        position: "absolute", top: 8, left: 8,
-        fontSize: 10, fontWeight: 600, letterSpacing: 1,
-        background: "rgba(0,0,0,0.65)", color: "#bbb",
-        padding: "2px 8px", borderRadius: 4, textTransform: "uppercase",
-      }}>
-        {product.tag}
-      </span>
-
       <div style={{
         position: "absolute", bottom: 0, left: 0, right: 0,
         background: "linear-gradient(to top, rgba(0,0,0,0.96) 0%, rgba(0,0,0,0.5) 55%, transparent 100%)",
